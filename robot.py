@@ -30,7 +30,7 @@ elif(GPIO.input(2)==False and GPIO.input(3)==True):
     GPIO.output(18,False) 
     
 "Move Right"
-elif(IO.input(2)==True and IO.input(3)==False): 
+elif(GPIO.input(2)==True and GPIO.input(3)==False): 
         GPIO.output(4,True) 
         GPIO.output(14,False) 
         GPIO.output(17,True) 
