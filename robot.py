@@ -43,7 +43,7 @@ else:
     GPIO.output(17,True) 
     GPIO.output(18,True) 
         
-"Lid Open"
+"Obstacle Distance"
 
 GPIO.output(PIN_TRIGGER, False)
 time.sleep(2)
@@ -64,7 +64,8 @@ pulse_duration = pulse_end_time - pulse_start_time
 distance = round(pulse_duration * 17150, 2)
 print ("Distance:",distance,"cm")
 
-"Servo Motor"
+"Servo Motor Test"
 if distance is <50:
     GPIO.output(16,True)
     
+"Lid Open"
